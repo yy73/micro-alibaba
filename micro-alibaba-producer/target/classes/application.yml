@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /micro-producer
+  port: 8083
+
+spring:
+  cloud:
+    nacos:
+      server-addr: 8.136.206.247:8848
+  application:
+    name: micro-producer
+

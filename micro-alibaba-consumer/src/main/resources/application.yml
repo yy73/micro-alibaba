@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /micro-consumer
+  port: 8081
+
+spring:
+  cloud:
+    nacos:
+      server-addr: 192.168.1.155:8848
+  application:
+    name: micro-consumer
+

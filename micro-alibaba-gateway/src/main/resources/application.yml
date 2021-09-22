@@ -1,0 +1,22 @@
+server:
+  port: 8082
+  servlet:
+    context-path: micro-gateway
+
+spring:
+  application:
+    name: micro-gateway
+  cloud:
+    nacos:
+      server-addr: 192.168.1.155:8848
+    gateway:
+      routes: #路由规则
+        - id: micro-producer # 路由标识
+          uri: lb://micro-producer #转发地址
+          predicates: #断言规则，匹配路由
+            - Path=/micro-producer/**
+#          filters:
+#            - StripPrefix=1
+
+
+
