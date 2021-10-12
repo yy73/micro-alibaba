@@ -1,0 +1,14 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /micro-sentinel
+
+spring:
+  application:
+    name: micro-sentinel
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8858

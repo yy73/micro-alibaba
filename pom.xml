@@ -11,8 +11,10 @@
     <modules>
         <module>micro-alibaba-producer</module>
         <module>micro-alibaba-consumer</module>
-        <module>micro-alibaba-producer-rpc</module>
+        <module>micro-alibaba-openfegin</module>
         <module>micro-alibaba-gateway</module>
+        <module>micro-alibaba-sentinel</module>
+        <module>micro-alibaba-openfegin-sentinel</module>
     </modules>
 
     <properties>
@@ -21,9 +23,9 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <java.version>1.8</java.version>
-        <spring-cloud-alibaba.version>2.2.0.RELEASE</spring-cloud-alibaba.version>
-        <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
-        <spring-boot.version>2.2.0.RELEASE</spring-boot.version>
+        <spring-cloud-alibaba.version>2.2.6.RELEASE</spring-cloud-alibaba.version>
+        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
+        <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
         <hutool-version>5.3.5</hutool-version>
     </properties>
     <dependencyManagement>

@@ -10,3 +10,7 @@ spring:
   application:
     name: micro-consumer
 
+logging:
+  level:
+    com.yy.micro.producer.rpc: debug
+

@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.yy.micro.producer.rpc</groupId>
-    <artifactId>micro-alibaba-producer-rpc</artifactId>
+    <groupId>com.yy.micro.openfegin</groupId>
+    <artifactId>micro-alibaba-openfegin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>

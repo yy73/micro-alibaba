@@ -9,4 +9,7 @@ spring:
       server-addr: 8.136.206.247:8848
   application:
     name: micro-producer
+logging:
+  level:
+    com.yy.micro.producer.rpc: debug
 
