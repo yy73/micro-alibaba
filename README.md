@@ -8,6 +8,8 @@
 - Sentinel
 - Skywalking
 
+1.添加整个动态网关，但是仅仅添加了 路由转发，过滤器和断言没有操作，后续待补充
+
 各组件版本说明
 
 > https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E
