@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8085
   servlet:
     context-path: micro-gateway
 
@@ -8,7 +8,7 @@ spring:
     name: micro-gateway
   cloud:
     nacos:
-      server-addr: 8.136.206.247:8848
+      server-addr: 127.0.0.1:8848
     gateway:
       routes: #路由规则
         - id: micro-producer # 路由标识
@@ -19,6 +19,7 @@ spring:
           uri: lb://micro-consumer #转发地址
           predicates: #断言规则，匹配路由
             - Path=/micro-consumer/**
+#   sentinel 配置
     sentinel:
       transport:
         dashboard: localhost:8858

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yy.micro.gateway.mysql.mapper.AppRouteMapper">
+    <insert id="insert">
+        INSERT INTO app_route
+            (id, routeId, `order`, uri, predicates, filters, updateTime)
+        VALUES (#{id}, #{routeId}, #{order}, #{uri}, #{predicates}, #{filters}, #{updateTime})
+    </insert>
+    <update id="update">
+        UPDATE app_route
+        <set>
+            routeId = #{routeId},
+            `order` = #{order},
+            uri = #{uri},
+            predicates= #{predicates},
+            filters = #{filters},
+            updateTime = #{updateTime}
+        </set>
+        WHERE id = #{id}
+    </update>
+    <delete id="delete">
+        DELETE
+        FROM app_route
+        where routeId = #{routeId}
+    </delete>
+</mapper>

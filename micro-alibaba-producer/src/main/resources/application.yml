@@ -1,7 +1,7 @@
 server:
   servlet:
     context-path: /micro-producer
-  port: 8083
+  port: 8082
 
 spring:
   cloud:

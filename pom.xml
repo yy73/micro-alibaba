@@ -13,6 +13,8 @@
         <module>micro-alibaba-consumer</module>
         <module>micro-alibaba-openfegin</module>
         <module>micro-alibaba-gateway</module>
+        <module>micro-alibaba-gateway-mysql</module>
+        <module>micro-alibaba-gateway-mysql-redis</module>
         <module>micro-alibaba-sentinel</module>
         <module>micro-alibaba-openfegin-sentinel</module>
     </modules>
